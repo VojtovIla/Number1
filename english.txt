@@ -1,0 +1,134 @@
+Exercise 1: Choose the correct form
+Part A — Single verbs
+typically runs (регулярное действие)
+Right now, the CI pipeline is executing (действие происходит прямо сейчас)
+Recursion occurs (общий факт/закон)
+Why is the compiler throwing so many warnings today? (временная ситуация, "сегодня")
+A pure function does not modify any external state. (общий факт)
+The team is currently rewriting the payment gateway. (временное действие в процессе)
+Every merge to main triggers a deployment. (регулярное правило)
+Listen — the fans are spinning up. (действие происходит в момент речи)
+This library does not support WebAssembly yet. (стати́вный глагол, общий факт)
+I have been reviewing (или am reviewing, если строго ограничено Present) pull requests all morning... (лучше всего Present Perfect Continuous для действия, начавшегося в прошлом и длящегося до сих пор с акцентом на длительность).
+
+
+Part B — Two gaps per sentence
+11. While the linter is scanning the file, the IDE is underlining suspicious lines. (два параллельных процесса сейчас)
+12. Normally the scheduler assigns tasks round-robin, but this week it is prioritising by deadline. (обычное правило vs временное исключение)
+13. I do not understand why this endpoint is returning 500 errors intermittently. (стати́вный глагол vs временная проблема)
+14. The cache expires after 24 hours; right now it is holding stale data. (общее правило vs текущее временное состояние)
+15. She is writing the migration script today because the release is approaching. (временное действие и развивающийся процесс)
+Part C — Choose between the two
+16. is showing (есть указатель "look at the graph" – прямо сейчас)
+17. contains (стати́вный глагол)
+18. prefer (стати́вный глагол, выражает мнение)
+19. are passing (указатель "at the moment")
+20. know (стати́вный глагол)
+
+
+Exercise 2: Correct the mistakes
+The function returns a boolean value by design. (не is returning)
+I usually write unit tests before implementation. (не am usually writing)
+Look — the server is crashing again. (или has crashed, но is crashing лучше подходит к "Look")
+This algorithm always runs in O(n log n) time. (не is always running)
+Do you understand the difference between a thread and a process? (не Do you understanding)
+The database consists of five shards. (не is consisting – стативный)
+She knows the answer, so ask her. (не is knowing – стативный)
+Every morning I check the build dashboard before standup. (не am checking)
+The service has not been responding since yesterday. (не is not responding – "since" требует Present Perfect)
+We believe that immutability improves reliability. (не are believing – стативный)
+
+
+Exercise 3: Complete the dialogue
+Dev: What are you working on?
+PM: I am refactoring the authentication module this sprint.
+Dev: But you do not usually touch (или usually don't touch) that module.
+PM: True, but it is currently leaking memory under load.
+Dev: Does it leak consistently, or only under spikes?
+PM: Only under spikes. The profiler shows a spike whenever concurrent sessions exceed 500.
+Dev: And who is handling (или handles) the rollback plan?
+PM: Dana owns that. She is writing the runbook as we speak.
+Exercise 4: Stative vs. dynamic verbs
+Part A
+know
+is showing
+contains
+prefer
+consists
+see (в значении "понимаю")
+is having (в значении "испытывает трудности" – динамическое)
+is holding (временно)
+Part B — Explain the difference
+9. a) Общий факт: датчик измеряет температуру каждую секунду (регулярно).
+b) Действие происходит прямо сейчас: датчик измеряет температуру в данный момент.
+10. a) Мнение/убеждение (стативное): "Я думаю (считаю), что баг в парсере".
+b) Мыслительный процесс (динамическое): "Я обдумываю переписывание парсера прямо сейчас".
+11. a) Общая характеристика: библиотека надежна (в целом).
+b) Временное поведение: библиотека ведет себя ненадежно в последние дни.
+12. a) Черта характера: ты педантичен в именовании (всегда).
+b) Временное поведение: ты ведешь себя педантично в именовании прямо сейчас.
+Exercise 5: Transform the sentence
+The cron job is triggering every midnight (this week).
+This week the team pair-programs daily.
+The library is generally handling edge cases gracefully (in the current version).
+The QA engineer is running the regression suite this week.
+We deploy hotfixes every evening.
+The API is returning paginated results by default (in this temporary release).
+I work from the Berlin office.
+The monitoring system alerts too often.
+The compiler is optimising tail calls (in the current release).
+She is mentoring juniors on Wednesdays (this month).
+Exercise 6: Error-hunting (8 ошибок)
+depend → depends (the legacy code depends)
+are identifying → identify (Every sprint we identify)
+is having → has (he has a point)
+are wanting → want (we want)
+is preferring → prefers (the ops team prefers)
+is knowing → knows (Nobody knows)
+is agreeing → agrees (everyone agrees)
+is needing → needs (the monolith needs)
+(Все ошибки связаны с неправильным использованием Present Continuous для стативных глаголов или привычных действий).
+Exercise 7: Fill in the blanks (mixed)
+Part A
+While the debugger is stepping through the code, the IDE is highlighting the current line.
+A race condition happens when two threads access shared memory simultaneously.
+I do not understand why this test is failing intermittently.
+She is writing documentation today because the release is approaching.
+The compiler does not warn about unused generics — that's a known limitation.
+Part B — Longer context
+Kernel: Every time the driver receives an interrupt, it queues a task. Currently, the queue is growing faster than we are draining it, which suggests a throughput problem. The team is investigating whether the scheduler is starving low-priority threads.
+Kernel: Why are you asking? Are you seeing dropped packets too?
+Exercise 8: Paraphrase with the opposite aspect
+The API is rate-limiting requests to 100 per minute (this week).
+I mentor two junior developers this week. (Неестественно: "this week" указывает на временный период, требующий Present Continuous).
+Static analyzers are catching most type errors (in this current setup).
+The staging environment behaves erratically. (Как общий факт).
+The garbage collector is reclaiming unreachable objects (right now).
+I read Designing Data-Intensive Applications at the moment. (Неестественно: "at the moment" требует Present Continuous).
+Kubernetes is restarting failed pods automatically (in this current configuration).
+The team experiments with Rust for the CLI tool. (Как регулярная практика).
+Water is boiling at 100 °C. (Неестественно: научные факты всегда используют Present Simple).
+My laptop runs hot since the last OS update. (Неестественно: "since" требует Present Perfect – has been running).
+Exercise 9: Dialogue completion
+A: How are you finding the new framework?
+B: Honestly, I am still getting used to its reactivity model. It feels different from what I normally use.
+A: What are you building with it at the moment?
+B: A dashboard. It is re-rendering too often, though — I am debugging that this week.
+A: Does it happen on every state change?
+B: No, only when the store is updating (или updates) deeply nested objects.
+A: I think you need structural sharing. I am reading a good article about that right now, actually — I'll send it.
+Exercise 11: Minimal pairs — same verb, two aspects
+a) depends (общий архитектурный факт).
+b) is depending (временная ситуация, характерная только для этого квартала).
+a) passes (общая способность теста проходить успешно).
+b) is passing (тест выполняется и проходит прямо сейчас, смотрите на вывод).
+a) writes (его профессия/род занятий в целом).
+b) is writing (временный проект, над которым он работает в свободное время).
+a) measures (общая функция устройства).
+b) is measuring (устройство выполняет измерение в эту самую секунду).
+Exercise 12: Register shift
+Documentation form: "The database migration occurs (или is performed) this quarter."
+Standup form: "The function is returning a promise."
+Documentation form: "The system retries failed requests exponentially."
+Standup form (temporary change): "Tokens are expiring after one hour in the current build."
+Documentation form: "A flaky test is investigated." (или The team investigates flaky tests – в документации часто используется пассивный залог или Present Simple для описания процессов).
